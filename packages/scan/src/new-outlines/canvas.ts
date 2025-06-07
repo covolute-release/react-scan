@@ -144,6 +144,8 @@ export const drawCanvas = (
 ) => {
   ctx.clearRect(0, 0, canvas.width / dpr, canvas.height / dpr);
 
+  return activeOutlines.size > 0;
+
   const groupedOutlinesMap = new Map<string, ActiveOutline[]>();
   const rectMap = new Map<
     string,

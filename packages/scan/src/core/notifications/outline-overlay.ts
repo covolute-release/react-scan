@@ -171,6 +171,10 @@ export const createHighlightCanvas = (root: HTMLElement) => {
   highlightCanvas.style.pointerEvents = 'none';
   highlightCanvas.style.zIndex = '2147483600';
 
+  // *** ADD DATA ATTRIBUTE ***
+  highlightCanvas.setAttribute('data-react-scan-canvas', 'true');
+  // *** END ADD ***
+
   highlightCtx.scale(dpr, dpr);
 
   root.appendChild(highlightCanvas);

@@ -1,6 +1,6 @@
 {
-  "name": "react-scan",
-  "version": "0.3.3",
+  "name": "shopable-scan",
+  "version": "0.3.46",
   "description": "Scan your React app for renders",
   "keywords": ["react", "react-scan", "react scan", "render", "performance"],
   "homepage": "https://react-scan.million.dev",

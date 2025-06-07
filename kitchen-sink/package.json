@@ -13,7 +13,7 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scan": "workspace:*",
+    "shopable-scan": "workspace:*",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {

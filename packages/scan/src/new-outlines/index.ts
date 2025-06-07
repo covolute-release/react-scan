@@ -306,6 +306,10 @@ export const getCanvasEl = () => {
   canvasEl.style.pointerEvents = 'none';
   canvasEl.style.zIndex = '2147483646';
   canvasEl.setAttribute('aria-hidden', 'true');
+
+  // *** ADD DATA ATTRIBUTE ***
+  canvasEl.setAttribute('data-react-scan-canvas', 'true');
+  // *** END ADD ***
   shadowRoot.appendChild(canvasEl);
 
   if (!canvasEl) return null;
